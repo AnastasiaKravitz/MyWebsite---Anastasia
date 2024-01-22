@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary page - My Day</title>
+    <link rel="stylesheet" type="text/css" href="diaryPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="selections">
+        <!-- <img src="C:\Users\ankra\Downloads\coollogo_com-201791975.png" alt="Logo is unavaileble"> -->
+        <br>
+        <button type="button" id="homeButton" onclick="homePage()">Home</button>
+        <button type="button" id="dayPlannerButton" onclick="dayPlannerPage()">Day Planner</button>
+        <button type="button" id="diaryButton" onclick="diaryPage()">My Diary</button>
+        <button type="button" id="healthButton" onclick="healthPage()">Health</button>
+        <button type="button" id="sportButton" onclick="sportPage()">Sport</button>
+        <button type="button" id="musicButton" onclick="musicPage()">Music</button>
+        <button type="button" id="booksButton" onclick="booksPage()">Books</button>
+        <button type="button" id="moviesButton" onclick="moviesPage()">Movies</button>
+        <button type="button" id="logoutButton" onclick="logoutPage()">Log out</button>
+        <br></br>
+    </div>
+    
+    <div>
+        <h1 id="myDiaryTitle">My Diary:</h3>
+        <div contentEditable=true data-text="Click here twice to write all the things happend to you today" id="myDiaryText"></div>
+    </div>
+
+
+
+    <script src="diaryPage.js"></script>
+</body>
+</html>

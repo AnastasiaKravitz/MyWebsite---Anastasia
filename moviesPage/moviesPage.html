@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies page - My Day</title>
+    <link rel="stylesheet" type="text/css" href="moviesPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="selections">
+        <!-- <img src="C:\Users\ankra\Downloads\coollogo_com-201791975.png" alt="Logo is unavaileble"> -->
+        <br>
+        <button type="button" id="homeButton" onclick="homePage()">Home</button>
+        <button type="button" id="dayPlannerButton" onclick="dayPlannerPage()">Day Planner</button>
+        <button type="button" id="diaryButton" onclick="diaryPage()">My Diary</button>
+        <button type="button" id="healthButton" onclick="healthPage()">Health</button>
+        <button type="button" id="sportButton" onclick="sportPage()">Sport</button>
+        <button type="button" id="musicButton" onclick="musicPage()">Music</button>
+        <button type="button" id="booksButton" onclick="booksPage()">Books</button>
+        <button type="button" id="moviesButton" onclick="moviesPage()">Movies</button>
+        <button type="button" id="logoutButton" onclick="logoutPage()">Log out</button>
+        <br></br>
+    </div>
+
+    <div>
+        <h1>Recommended Movies:</h1>
+
+        <h3>Family Films:</h3>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/image_ed8d7a4e.jpeg?region=0%2C0%2C800%2C1200" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BNDI1MzM0Y2YtYmIyMS00ODE3LTlhZjEtZTUyNmEzMTNhZWU5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BZTRkZjMyMDktNDAyMi00NWI1LWFmMGUtOGY4OWQxODZiOTk5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BNTMwMzA4YzYtMzkwNC00N2ZhLTk5MjQtMjg3ODA3NDY3ZmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BZWIxYmEwNTMtOTVmMC00MWQ4LWFiNzgtYmJjZWY5Mjg0MWFjXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg" height="300"></img>
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/45/A_Christmas_Prince_-_The_Royal_Wedding.png" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BY2I2YTZiZWQtNDNmMS00MDY1LTlkNzUtZmI3MDAyMjcwYjZmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BNTA3NjU3OTM2MV5BMl5BanBnXkFtZTgwNjQ2MzE1NjM@._V1_.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BMGJiZDc1OWMtNzMwMC00NzM0LTljMDgtZGJjODVhZDMzMmJjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" height="300"></img>
+        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p170967_p_v10_aa.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/I/91Muxl4a14L._AC_UF894,1000_QL80_.jpg" height="300"></img>
+        <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/635b480be30d72405a19ae4e573b6bfeb26424b813245d8aca38910c4f12678d._RI_TTW_.jpg" height="300"></img>
+        <img src="https://image.tmdb.org/t/p/w500/aQhFoqby8UYq4uGQXOtV7P8JLBl.jpg" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_theparenttrap1998_19873_be8ce25c.jpeg" height="300"></img>
+        <br></br><br></br>
+
+        <h3>Animated Movies:</h3>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_cinderella_20490_a7c83808.jpeg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://images.pathe-thuis.nl/15774_450x640.jpg" height="300"></img>
+        <img src="https://disfilmproject.com/wp-content/uploads/sites/3/2016/12/600x600bb.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_mulan_20529_83d3893a.jpeg?region=0%2C0%2C540%2C810" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BODEzMmIxOGMtY2RhYS00YTFiLThkZmYtMDlmZGJlYzg0NWEzXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_snowwhiteandthesevendwarfs_19871_806c8934.jpeg" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_brave_20488_9e833e2b.jpeg" height="300"></img>
+        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10222_p_v13_ai.jpg" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_frozen_18373_3131259c.jpeg?region=0%2C0%2C540%2C810" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BNTRmN2E2NWQtZTUyOC00NGM2LWE4N2ItZjM2ZDYzNzEwOTMzXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" height="300"></img>
+        <img src="https://play-lh.googleusercontent.com/KmUkxn2Zg_BKfTE6keR7VC3XKR1eoahh0O5bSgA593DiOuy0ZuxX1LtwoSrj2wiGCVCn" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_theprincessandthefrog_20499_1c5f55a1.jpeg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/I/717tyrfiPaL._AC_UF1000,1000_QL80_.jpg" height="300"></img>
+        <img src="https://lumiere-a.akamaihd.net/v1/images/image_94f89ec1.jpeg" height="300"></img>
+        <img src="https://pics.filmaffinity.com/Ralph_Breaks_the_Internet-862794954-large.jpg" height="300"></img>
+        <img src="https://www.rotoscopers.com/wp-content/uploads/2013/02/Wreck-It-Ralph-Poster.jpg" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <img src="https://imageio.forbes.com/blogs-images/scottmendelson/files/2015/09/hotel_transylvania_two_ver4_xlg.jpg?format=jpg&height=900&width=1600&fit=bounds" height="300"></img>
+        <img src="https://m.media-amazon.com/images/M/MV5BNjA1MzU5MTY3OF5BMl5BanBnXkFtZTgwNTU5MDA3NTM@._V1_FMjpg_UX1000_.jpg" height="300"></img>
+        <br></br><br></br>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="moviesPage.js"></script>
+</body>
+</html>

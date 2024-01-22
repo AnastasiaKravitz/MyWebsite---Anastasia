@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    font-family: Nerko One;
+    color: black;
+    background-image: url('https://marketplace.canva.com/EAFcuA4ZUpk/1/0/1600w/canva-beige-pastel-terrazzo-abstract-desktop-wallpaper-rtHx0Wpl5Oc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.selections{
+    background: #ffccb3;
+    position: sticky;
+}
+
+button{
+    font-family: Nerko One;
+    color: #331400;
+    background-color: #ffb380;
+    border-style: Outset;
+    border-width:2px;
+    border-radius:10px;
+    border-color: #ffb380;
+    /* -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: black; */
+}
+
+#diaryButton{
+    opacity: 0.5;
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+
+button:hover{
+    opacity: 0.5;
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
+}
+
+button::after{
+    opacity: 0.5;
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+
+/* Code for all the placeholder paragraphs*/
+[contentEditable=true]:empty:not(:focus):before {
+    content: attr(data-text)
+}
+
+#myDiaryTitle{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.45px;
+    -webkit-text-stroke-color: black;
+}
+
+#myDiaryText{
+    text-align: left;
+    height: 50px;
+    width: 1900px;
+    color: black
+}

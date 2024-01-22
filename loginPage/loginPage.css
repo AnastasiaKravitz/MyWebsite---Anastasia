@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-family: Nerko One;
+    color: black;
+    background-image: url('https://img.freepik.com/premium-photo/carefree-day-shopping-trying-clothes_670382-48352.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #loginContainer{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #ffbb99;
+    opacity: 0.5;
+} */
+
+#title{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+}
+
+#username{
+    font-family: Nerko One;
+}
+
+#password{
+    font-family: Nerko One;
+}
+
+button{
+    font-family: Nerko One;
+    color: #331400;
+    background-color: #ff704d;
+    border-style: Outset;
+    border-width:2px;
+    border-radius:10px;
+    border-color: #ff704d;
+}
+
+button:hover{
+    opacity: 0.5;
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
+}
